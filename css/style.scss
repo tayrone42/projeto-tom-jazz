@@ -21,7 +21,14 @@ body{
     line-height: 23.44px;
     background-color: #ED4D1B;
     border: 2px solid #000000;
-    box-shadow: 4px 4px 0px 0px #1E1E1E;        
+    box-shadow: 4px 4px 0px 0px #1E1E1E; 
+    
+    &:hover{
+        background-color: #000000;
+        border-color: #ED4D1B;
+        color: #ED4D1B;
+        cursor: pointer;
+    }
 }
 
 header{
